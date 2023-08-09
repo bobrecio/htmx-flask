@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flask HTMX ALPINE App</title>
+    <link href="css/bootstrap_v5.0.0-beta1.css" rel="stylesheet">
+    <!-- HTMX -->
+    <script src="js/htmx_1.5.0.js"></script>
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        tr.htmx-swapping td {
+            opacity: 0;
+            transition: opacity 0.5s ease-out;
+        }
+
+        td,
+        th {
+            border: 1px solid #383737;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+
+
+</body>
+
+</html>
